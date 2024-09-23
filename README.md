@@ -10,6 +10,7 @@ The first time the program is run, the user will be presented with a set of bank
 1. Display the balance
 2. Deposit
 3. Exit
+
 To perform a transaction (or exit the program), simply input the number preceeding each menu description and press enter. The user can input anything apart from the numbers 1,2, and 3 but will get a notification that the input is invalid and will be asked to input the correct number again. At this time, if the user chooses 1, the displayed balance will be 0 because there's no saved balance data yet. There'll also be a message notifying the user to make the first deposit. Once the user choose to deposit, the program will ask for an amount to deposit. The user can again input anything apart from numbers but the program will notify the user of any invalid input and will keep asking the user again and again until it gets a valid input value. Once the deposit amount is taken, the balance data file is created with the information of the user's current balance.
 
 After finishing the deposit procedure, the program asks if the user still have any more transaction to do. At this point, the user can simply type "Y" or "y" for yes or "N" or "n" for no. Again, the program keeps track of the user input and will take in only the correct input format. If the user inputs "n", the program ends with a goodbye message. Otherwise, the user will be presented with the numbered transaction menu again, this time there are 4 choices as the following list:
