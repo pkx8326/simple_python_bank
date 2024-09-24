@@ -67,7 +67,7 @@ def withdraw(balance, balancefile):
     while True:
         try:
             amount = float(input("Please input an amount to withdraw :"))
-            if amount <= 0 and amount > balance:
+            if amount <= 0:
                 raise Exception
             elif amount > balance:
                 print("Insufficient funds")
