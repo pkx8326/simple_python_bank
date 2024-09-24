@@ -1,5 +1,7 @@
 # Simple Python Bank
 
+## NOTE: The code provided in this repository yields the same results as the Python scripts provided here: https://github.com/pkx8326/simple_go_bank. It's the same program written in the Python programming language.
+
 ### Overview
 In this project, I programed an example of a simple, command-line-based, banking application with Python. The program can performs examples of basic banking transactions, including checking curreent balance and making deposit and withdrawal. The current balance information can be kept locally on file. With each session, the program will read the last updated balance information from the file and continue from that point.
 
